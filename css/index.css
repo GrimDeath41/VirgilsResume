@@ -1,0 +1,42 @@
+/* Mobile First View: */
+
+h2 {
+	display: none;
+}
+
+aside {
+	background: #664a3d;
+  	color: #E3DFDE;
+	font-size: 120%;
+	padding: 5px 0;
+	text-align: center;
+	width: 100%;
+}
+
+#main image {
+    width: 100%;
+    display: block;
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+	main {
+		display: flex;
+	}
+
+	aside {
+		display: flex;
+		flex-direction: column;
+		float: left;
+		justify-content: center;
+		width: 30%;
+	}
+
+	section {
+		display: inline;
+		float: right;
+		width: 70%;
+	}
+
+}
