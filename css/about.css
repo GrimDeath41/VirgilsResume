@@ -1,0 +1,31 @@
+    /* Mobile View */
+#main_image {
+    width: 100%;
+    display: block;
+}
+    aside {
+        background:black;
+        color: #E3DFDE;
+        font-size: 120%;
+        border: 4px solid brown;
+        border-radius: 10px;
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        padding: 10px;
+		text-align: left;
+        justify-content: center;
+	}
+    /* Desktop View */
+    @media only screen and (min-width: 768px) {
+        main {
+            display: flex;
+            margin: auto;
+        }
+        aside {
+            width: 1000px;
+            height: auto;
+            margin: auto;
+            float: right;
+        }    
+    }

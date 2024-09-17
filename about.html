@@ -4,23 +4,81 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A Pet Resume For Virgil The Dachshund">
-        <title>Virgil The Dachshund All Abour Virgil</title>
+        <title>Virgil The Dachshund</title>
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/about.css">
     </head>
 
     <body>
         <header>
-            <h1>Virgil The Dachshund <br> A Pet Resume</h1>
+            <h1>Virgil The Dachshund</h1>
             <label for="hamburger_checkbox">
                 <img src="images/icons/hamburger_menu.svg" alt="Menu" id="hamburger_image">
             </label>
             <input type="checkbox" id="hamburger_checkbox">
             <nav>
-                <a href="index.html">Main</a>
+                <a href="index.html">Home</a>
+                <a class="active_nav" href="about.html">About Virgil</a>
                 <a href="photos.html">Virgils Photos</a>
-                <a class="active_nav" href="about.html">About</a>
                 <a href="contact.html">Contact</a> 
             </nav>
         </header>
+        <main>
+            <section>
+
+                <img id="main_image"
+                srcset="images/480w/background.png 480w,
+                        images/960w/background.png 960w,
+                        images/1920w/background.png 1920w"
+                        sizes="(max-width: 480px) 480px,
+                                (max-width: 960px) 960px,
+                                (max-width: 1920px) 1920px"
+                        src="images/1920w/background.png"
+                        title="Virgil In Space"
+                        alt="Virgil In Space">
+                        <article>
+                            <p>    
+                                I hope you will take me into consideration for your property.<br>
+                                I promise I will do my best in taking care of it!
+                            </p>
+                        </article>
+            </section>
+            <aside>
+            <p>
+                I am a quiet and gentle old boy and will spend most of the day sleeping on the couch (or on 
+                the bed if I’m not caught!).<br>
+            <hr>     
+                I can only really go on a 30 minute a day walk before tiring and 
+                needing to spend the rest of the day sleeping.
+            </p>
+            <hr>
+            <p>
+                I would be described as a low maintenance dog
+            <hr>    
+                Unlike most Dachshunds I'm not one to bark or growl 
+                (I would make a terrible guard dog), needing very little space.
+            </p>
+            <hr>
+            <p>
+                I'm happy and not at all destructive.<br> 
+                If I’m not sleeping, I’m chasing down my owner for pats. 
+           </p>
+            </aside>
+        </main>
+
+        <footer>
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+            <span property="dct:title">Virgils Pet Resume &copy;</span> By 
+            <span property="cc:attributionName">Tyrone Parker</span> is marked with <br> 
+            <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" 
+            rel="license noopener noreferrer"> CC0 1.0
+            <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="creative commons CC">
+            <img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt="creative commonds 0">
+            </a>
+            </p>
+        </footer>
+    
+    </body>
+</html>

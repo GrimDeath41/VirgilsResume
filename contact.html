@@ -4,23 +4,47 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A Pet Resume For Virgil The Dachshund">
-        <title>Virgil The Dachshund Contact Information</title>
+        <title>Virgil The Dachshund</title>
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/contact.css">
     </head>
 
     <body>
         <header>
-            <h1>Virgil The Dachshund <br> A Pet Resume</h1>
+            <h1>Virgil The Dachshund</h1>
             <label for="hamburger_checkbox">
                 <img src="images/icons/hamburger_menu.svg" alt="Menu" id="hamburger_image">
             </label>
             <input type="checkbox" id="hamburger_checkbox">
             <nav>
-                <a href="index.html">Main</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Virgil</a>
                 <a href="photos.html">Virgils Photos</a>
-                <a href="about.html">About</a>
                 <a class="active_nav" href="contact.html">Contact</a> 
             </nav>
         </header>
+        <form id="contact_form">
+            <label for="name">Name:</label><br >
+            <input type="text" id="name" name="name" ><br >
+            <label for="email">Email:</label><br >
+            <input type="email" id="email" name="email" ><br >
+            <label for="message">Message:</label><br >
+            <textarea id="message" name="message"></textarea><br ><br >
+            <button type="submit" >Submit</button><br >
+            <button type="reset">Reset</button>
+        </form>
+            <footer>
+                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+                <span property="dct:title">Virgils Pet Resume &copy;</span> By 
+                <span property="cc:attributionName">Tyrone Parker</span> is marked with <br> 
+                <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" 
+                rel="license noopener noreferrer"> CC0 1.0
+                <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="creative commons CC">
+                <img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt="creative commonds 0>
+                </a>
+                </p>
+            </footer>
+    </body>
+</html>

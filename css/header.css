@@ -2,14 +2,14 @@
 
     /* Stlye the main header */
 header { 
-	background: #664a3d;
-  	color: #E3DFDE;
+	background: brown;
+    width: 100%;
     overflow: auto;
 }
 
     /* Style the heading */
 h1 {
-    color: black;
+    color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     float: left;
     padding: 0 20px;
@@ -38,7 +38,7 @@ h1 {
 
   /* Style the links inside the navigation bar */
   nav a {
-    color: #f3471c;							
+    color: white;							
     float: left;
     font-size: 17px;
     padding: 30px 20px;
@@ -61,28 +61,31 @@ nav a:focus {
 
     /* Change the color of the active link */
 .active_nav {
-    background-color: #87604E;
+    background-color: black;
     color: white;
 }
 
 
 /* For Desktops Second View */
-@media only screen and (min-width: 760) {
+@media only screen and (min-width: 768px) {
     #hamburger_image {
         display: none;
     }
-    #hamburger_checkbox:not(:checked) + nav {
-        display: block;
+    #hamburger_checkbox:checked + nav {
+        display:block;
+        float: right;
+    }
+    nav{
+        float: right;
+    }
+    header{
+    position: sticky;
+    top: 0;
     }
     h1 {
         text-align: left;
         width: 360px;
     }
-
-    nav{
-        float: right;
-    }
-
     nav a {
         width: auto;
     }
