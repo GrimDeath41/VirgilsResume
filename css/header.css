@@ -23,6 +23,7 @@ h1 {
 
     /* Style the hamburger checkbox */
 #hamburger_image {
+    background-color: black;
     display: block;
     margin-bottom: 20px;
     margin-left: auto;
