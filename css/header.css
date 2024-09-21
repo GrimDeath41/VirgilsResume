@@ -16,7 +16,7 @@ h1 {
     width: 100%;
 }
 
-    /* Hide the checkbox */
+    /* Hide the actual checkbox */
 #hamburger_checkbox {
         display: none;
     }

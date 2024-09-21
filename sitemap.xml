@@ -1,0 +1,27 @@
+<?xml versions "1.0" encoding "UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+    <loc>https://grimdeath41.github.io/VirgilsResume/</loc>
+    <lastmod>2024-21-09</lastmod>
+    <change-freq>monthly</change-freq>
+    <priority>1.0</priority>
+    </url>
+    <url>
+    <loc>https://grimdeath41.github.io/VirgilsResume/about.html</loc>
+    <lastmod>2024-21-09</lastmod>
+    <change-freq>monthly</change-freq>
+    <priority>0.8</priority>
+    </url>
+    <url>
+    <loc>https://grimdeath41.github.io/VirgilsResume/photos.html</loc>
+    <lastmod>2024-21-09</lastmod>
+    <change-freq>monthly</change-freq>
+    <priority>0.6</priority>
+    </url>
+    <url>
+    <loc>https://grimdeath41.github.io/VirgilsResume/contact.html</loc>
+    <lastmod>2024-21-09</lastmod>
+    <change-freq>monthly</change-freq>
+    <priority>0.4</priority>
+    </url>
+</urlset>

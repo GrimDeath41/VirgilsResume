@@ -33,10 +33,12 @@ aside a:focus {
     width: 100%;
     display: block;
 }
+/*Style the second heading*/
 h2{
 	font-size: 150%;
 	text-decoration-line: underline;
 }
+/* hide the third heading */
 h3{
 	display: none;
 }

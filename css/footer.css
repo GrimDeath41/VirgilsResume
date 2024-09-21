@@ -6,13 +6,12 @@ footer {
 	text-align: center;
 	width: 100%;
 }
-
+/* Style the links in the footer */
 footer a {
 	color: white;
 	display:inline-block;
 	padding: 8px;
-	text-decoration: none;
-
+	text-decoration: underline;
 }
 
 footer a:hover {
